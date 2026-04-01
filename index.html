@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>2048 Gaming App - DevOps Project</title>
+    <title>2048 Gaming App - DevOps Project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Oru vela style.css load aagala-na idhu help pannum */
+        body { background-color: #faf8ef; text-align: center; font-family: sans-serif; }
+        .game-box { 
+            background: #bbada0; 
+            width: 300px; 
+            height: 300px; 
+            margin: 20px auto; 
+            border-radius: 10px; 
+            padding: 15px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
 </head>
-<body style="background-color: #faf8ef; text-align: center; font-family: sans-serif;">
-  <h1 style="color: #776e65; font-size: 60px;">2048</h1>
-  <div style="background: #bbada0; width: 300px; height: 300px; margin: 0 auto; border-radius: 10px; padding: 15px;">
-    <p style="color: white; font-size: 20px;">Game Loading for Deployment...</p>
-    <h2 style="color: #eee4da;">Secure CI/CD Pipeline</h2>
-  </div>
-  <p>Deployed by: <b>Gayathri - automated via webhook</b></p>
+<body>
+    <h1 style="color: #776e65; font-size: 60px;">2048</h1>
+    <div class="game-box">
+        <p style="font-size: 20px;">Game Loading...</p>
+        <h2>Secure CI/CD Pipeline</h2>
+    </div>
+    <p>Deployed by: <b>Gayathri - automated via webhook</b></p>
 </body>
 </html>
